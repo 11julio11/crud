@@ -106,7 +106,7 @@ function editInfo(index, pic, name, Age, City, Email, Phone, Post, Sdate){
 
 
 function deleteInfo(index){
-    if(confirm("Are you sure want to delete?")){
+    if(confirm("¿Estás segur@ de que quieres eliminar?")){
         getData.splice(index, 1)
         localStorage.setItem("userProfile", JSON.stringify(getData))
         showInfo()
